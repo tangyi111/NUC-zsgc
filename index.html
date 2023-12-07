@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>南华大学知识工程课题组主页</title>
+
+	<link rel="shortcut icon" href="images/南华logo.png" />
+
+	<meta content="test/html" charset="utf-8">
+
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<!--jQuery (necessary for Bootstrap's JavaScript plugins)-->
+	<script src="js/jquery.min.js"></script>
+	<!-- Custom Theme files -->
+	<link href="css/style.css" rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<!--Custom Theme files-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	</script>
+
+	<!--webfonts-->
+	<link href='http://fonts.useso.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic'
+		rel='stylesheet' type='text/css'>
+	<link href='http://fonts.useso.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<!--webfonts-->
+	<!--start-smoth-scrolling-->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+			});
+		});
+	</script>
+	<!--start-smoth-scrolling-->
+
+
+</head>
+
+<body>
+	<!--header-->
+	<div class="header">
+		<div class="header-top">
+			<div class="container">
+				<div class="logo">
+					<a href="http://www.usc.edu.cn/" style="color: white;font-size: 17px;;"><img
+							src="images/南华logo.png" />&nbsp;&nbsp;南华大学计算机学院知识工程课题组</a>
+				</div>
+				<!--top-nav-->
+				<div class="top-nav">
+					<span class="menu"> </span>
+					<ul>
+						<li class="active"><a href="#home" class="scroll">主页 </a></li>
+						<li><a href="#service" class="scroll">研究方向</a></li>
+						<li><a href="#portfolio" class="scroll">实验室成果</a></li>
+						<li><a href="#publishment" class="scroll">发表论文</a></li>
+						<li><a href="#team" class="scroll">科研团队</a></li>
+						<li><a href="#client" class="scroll">科研项目</a></li>
+						<div class="clearfix"> </div>
+
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+				<!-- script-for-menu -->
+				<script>
+					$(document).ready(function () {
+						$("span.menu").click(function () {
+							$(".top-nav ul").slideToggle(200);
+						});
+					});
+				</script>
+				<!--End-top-nav-script-->
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<!--banner-->
+		<div class="banner">
+			<div class="container flex">
+				<div class="banner-info">
+					<img src="images/ouy.png" width=105 height=140 />
+					<h2>欧阳纯萍</h2>
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;博士，教授，美国印第安纳大学访问学者，硕士生导师，主要研究方向为知识图谱、社交网络分析，自然语言处理、药物发现。中文信息学会语言与知识计算专业委员会委员，湖南省青年骨干教师，湖南省课程思政教学名师。
+					</p>
+					<br />
+					<a class="b-link-stripe b-animate-go  thickbox popup-with-zoom-anim" href="#ouyang"
+						style="color:#FFF; text-decoration:underline">详细资料</a>
+				</div>
+				<div class="banner-info">
+					<img src="images/liu.png" width=105 height=140 />
+					<h2>刘永彬</h2>
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;博士，副教授，清华大学博士后，硕士生导师，研究方向为自然语言处理和知识图谱。中国计算机学会-自然语言处理专业委员会执行委员，国际期刊Data
+						Intelligent （MIT出版社）编委。</p>
+					<br />
+					<a class="b-link-stripe b-animate-go  thickbox popup-with-zoom-anim" href="#liu"
+						style="color:#FFF; text-decoration:underline">详细资料</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<section class="color ss-style-bigtriangle ">
+		<div id="service" class="Services">
+			<div class="service-section">
+				<div class="container">
+					<h3>研究方向</h3>
+				</div>
+			</div>
+			<div class="service-grids">
+				<div class="container">
+					<div class="col-md-4 service-grid1">
+						<i class="icon1"> </i>
+						<h3>多模态</h3>
+
+					</div>
+					<div class="col-md-4 service-grid2">
+						<i class="icon2"> </i>
+						<h3>因果</h3>
+
+					</div>
+					<div class="col-md-4 service-grid3">
+						<i class="icon3"> </i>
+						<h3>信息抽取</h3>
+
+					</div>
+
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+
+		</div>
+		<div class="service-grids">
+			<div class="container">
+				<div class="col-md-4 service-grid1">
+					<i class="icon1"> </i>
+					<h3>药物预测</h3>
+
+				</div>
+				<div class="col-md-4 service-grid2">
+					<i class=""> </i>
+					<h3></h3>
+					<p></p>
+				</div>
+				<div class="col-md-4 service-grid3">
+					<i class="icon3"> </i>
+					<h3>大语言模型</h3>
+
+				</div>
+
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+
+		</div>
+
+	</section>
+	<svg id="bigTriangleColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100"
+		viewBox="0 0 100 102" preserveAspectRatio="none">
+		<!-- <path d="M0 0 L50 100 L100 0 Z" /> -->
+	</svg>
+	<!--/End-banner-->
+	<div id="portfolio" class="portfolio">
+		<div class="container">
+			<div class="port-section">
+				<h3>实验室成果</h3>
+				<lable> </lable>
+			</div>
+			<div class="portfolio">
+				<ul id="filters" class="clearfix">
+					<li class="active"><span class="filter" data-filter="app card icon logo web paper">所有</span></li>
+					<li><span class="filter" data-filter="paper">1</span></li>
+					<li><span class="filter" data-filter="card">2</span></li>
+					<li><span class="filter" data-filter="app"> 3</span></li>
+				</ul>
+				<div id="portfoliolist">
+					<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">
+							<a href="moban257/hisou.html" class="b-link-stripe b-animate-go  thickbox ">
+								<img src="images/因果1.jpg" />
+								<div class="b-wrapper">
+									<h2 class="b-animate b-from-left    b-delay03 "><img src="images/因果2.jpg" alt="" />
+									</h2>
+									<p class="b-animate b-from-right  b-delay03 "><span class="m_4">1</span><br>该模型主要功能是
+									</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">
+							<a href="moban257/hibo.html" class="b-link-stripe b-animate-go  thickbox">
+								<img src="images/多模态1.jpg" />
+								<div class="b-wrapper">
+									<h2 class="b-animate b-from-left    b-delay03 "><img src="images/多模态2.jpg" alt="" />
+									</h2>
+									<p class="b-animate b-from-right    b-delay03 "><span
+											class="m_4">2</span><br>该模型主要功能是</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="portfolio paper mix_all" data-cat="paper" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">
+							<a href="moban257/hichuan.html" class="b-link-stripe b-animate-go  thickbox ">
+								<img src="images/药物1.jpg" />
+								<div class="b-wrapper">
+									<h2 class="b-animate b-from-left    b-delay03 "><img src="images/药物2.jpg" alt="" />
+									</h2>
+									<p class="b-animate b-from-right    b-delay03 "><span
+											class="m_4">3</span><br>该模型主要功能是</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+
+			<!---pop-up-box---->
+			<script type="text/javascript" src="js/modernizr.custom.min.js"></script>
+			<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+			<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+			<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+			<script type="text/javascript">
+				$(function () {
+
+					var filterList = {
+
+						init: function () {
+
+							// MixItUp plugin
+							// http://mixitup.io
+							$('#portfoliolist').mixitup({
+								targetSelector: '.portfolio',
+								filterSelector: '.filter',
+								effects: ['fade'],
+								easing: 'snap',
+								// call the hover effect
+								onMixEnd: filterList.hoverEffect()
+							});
+
+						},
+
+						hoverEffect: function () {
+
+							// Simple parallax effect
+							$('#portfoliolist .portfolio').hover(
+								function () {
+									$(this).find('.label').stop().animate({ bottom: 0 }, 200, 'easeOutQuad');
+									$(this).find('img').stop().animate({ top: -30 }, 500, 'easeOutQuad');
+								},
+								function () {
+									$(this).find('.label').stop().animate({ bottom: -40 }, 200, 'easeInQuad');
+									$(this).find('img').stop().animate({ top: 0 }, 300, 'easeOutQuad');
+								}
+							);
+
+						}
+
+					};
+
+					// Run the show!
+					filterList.init();
+
+				});	
+			</script>
+			<div id="small-dialog" class="mfp-hide">
+				<div class="image-top">
+					<img src="images/pop-upso.png" alt="" />
+					<p>该软件主要功能是针对大规模视频数据进行收集和搜索。根据当前很多视频网站的开放平台获取大量视频数据，进行搜索。使用建立索引的方法索引视频数据，并且在索引文件上进行相应的搜索实现。需要说明的是，该软件是使用分布式的方法对视频数据建立索引和完成相应的搜索，在搜索时间上有了较大的提高，实时性更好。
+					</p>
+					<a href="http://113.10.157.125/test2/index.jsp">查看更多</a>
+				</div>
+			</div>
+			<div id="small-dialog1" class="mfp-hide">
+				<div class="image-top">
+					<img src="images/pop-upmeet.png" alt="" />
+					<p>直播技术</p>
+				</div>
+			</div>
+			<div id="small-dialog2" class="mfp-hide">
+				<div class="image-top">
+					<img src="images/pop-upnet.png" alt="" />
+					<p>该产品为安卓智能移动端视频点播应用。能够流畅点播1080p高清网络视频，支持RTSP,HLS等多种常见的视频流媒体协议。清爽的界面风格，绝无广告和插件的干扰，让您在影音娱乐的专属空间里，真正拥有五星级的视听享受。支持Android
+						4.0及以上系统</p>
+					<a href="../hibo/index.jsp">查看更多</a>
+				</div>
+			</div>
+			<div id="small-dialog3" class="mfp-hide">
+				<!--<div class="image-top">-->
+				<p>high 传</p>
+				<!--</div>-->
+			</div>
+			<div id="small-dialog4" class="mfp-hide">
+				<div class="image-top">
+					<img src="images/pop-upnative.png" alt="" />
+					<p>High播是一款高性能移动端播放器。能够流畅播放720P、1080P高清MKV，FLV，MP4，MOV，TS，RMVB等常见格式的视频。支持4K硬件解码加速。</p>
+					<a href="../hibo/index.jsp">查看更多</a>
+				</div>
+			</div>
+			<div id="small-dialog5" class="mfp-hide">
+				<div class="image-top">
+					<img src="images/pop-up2.png" alt="" />
+					<p>empty content5</p>
+				</div>
+			</div>
+			<div id="small-dialog6" class="mfp-hide">
+				<div class="image-top">
+					<img src="images/teamlab.jpg" alt="" />
+					<p>empty content6</p>
+				</div>
+			</div>
+			<div id="small-dialog7" class="mfp-hide">
+				<div class="image-top">
+					<img src="images/pop-up2.png" alt="" />
+					<p>empty content7</p>
+				</div>
+			</div>
+			<div id="small-dialog8" class="mfp-hide">
+				<div class="image-top">
+					<img src="images/pop-up.png" alt="" />
+					<p>empty content8</p>
+				</div>
+			</div>
+			<div id="member-dialog" class="mfp-hide">
+				<div class="image-top">
+					<h2>科研团队</h2>
+					<table width="100%" style="text-align:left">
+						<tr>
+							<td>
+								<h3>教师</h3>
+							</td>
+						</tr>
+						<tr>
+							<th> <img id="img1" src="images/team/ouy.png" /></th>
+							<th> <img id="img1" src="images/team/liu.png" /></th>
+						</tr>
+						<tr>
+							<td>
+								<h>欧阳纯萍</h>
+							</td>
+							<td>
+								<h>刘永彬</h>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<h3>在读硕士</h3>
+							</td>
+						</tr>
+						<tr>
+
+							<th> <img id="img1" src="images/team/zhen.png" /></th>
+							<th> <img id="img1" src="images/team/袁.jpg" /></th>
+							<th> <img id="img1" src="images/team/张琳琳.jpg" /></th>
+							<th> <img id="img1" src="images/team/方.jpg" /></th>
+							<th> <img id="img1" src="images/team/吴林.png" /></th>
+						</tr>
+						<tr></tr>
+						<tr>
+							<td>杨震</td>
+							<td>
+								<h>袁玥</h>
+							</td>
+							<td>
+								<h>张琳琳</h>
+							</td>
+							<td>
+								<h>方文泷</h>
+							</td>
+							<td>
+								<h>吴林<h>
+							</td>
+						</tr>
+						<td>&nbsp;</td>
+						<tr>
+
+							<th> <img id="img1" src="images/team/张伟.jpg" /></th>
+							<th> <img id="img1" src="images/team/wuyan.jpg" /></th>
+							<th> <img id="img1" src="images/team/范腾.jpg" /></th>
+							<th> <img id="img1" src="images/team/孙明龙.jpg" /></th>
+							<th> <img id="img1" src="images/team/唐培.jpg" /></th>
+						</tr>
+						<tr></tr>
+						<tr>
+							<td>张伟</td>
+							<td>
+								<h>吴雁彬</h>
+							</td>
+							<td>
+								<h>范腾</h>
+							</td>
+							<td>
+								<h>孙明龙</h>
+							</td>
+							<td>
+								<h>唐培<h>
+							</td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+						<tr>
+
+							<th> <img id="img1" src="images/team/赵开.jpg" /></th>
+							<th> <img id="img1" src="images/team/李家乐.jpg" /></th>
+							<th> <img id="img1" src="images/team/彭勋.jpg" /></th>
+							<th> <img id="img1" src="images/team/任林.jpg" /></th>
+							<th> <img id="img1" src="images/team/谭.jpg" /></th>
+						</tr>
+						<tr></tr>
+						<tr>
+							<td>赵开</td>
+							<td>
+								<h>李家乐</h>
+							</td>
+							<td>
+								<h>彭勋</h>
+							</td>
+							<td>
+								<h>任林</h>
+							</td>
+							<td>
+								<h>谭腾凯<h>
+							</td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+						<tr>
+
+							<th> <img id="img1" src="images/team/贺一东.jpg" /></th>
+							<th> <img id="img1" src="images/team/潘雪.jpg" /></th>
+							<th> <img id="img1" src="images/team/江璐.jpg" /></th>
+							<th> <img id="img1" src="images/team/崔龙.jpg" /></th>
+							<th> <img id="img1" src="images/team/钟进.jpg" /></th>
+						</tr>
+						<tr></tr>
+						<tr>
+							<td>贺一东</td>
+							<td>
+								<h>潘雪</h>
+							</td>
+							<td>
+								<h>江璐</h>
+							</td>
+							<td>
+								<h>崔龙</h>
+							</td>
+							<td>
+								<h>钟进<h>
+							</td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+						<tr>
+
+							<th> <img id="img1" src="images/team/杨涛.jpg" /></th>
+							<th> <img id="img1" src="images/team/朱赤.jpg" /></th>
+							<th> <img id="img1" src="images/team/李舟.jpg" /></th>
+						</tr>
+						<tr></tr>
+						<tr>
+							<td>杨涛</td>
+							<td>
+								<h>朱赤</h>
+							</td>
+							<td>
+								<h>李舟</h>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<h3>毕业硕士</h3>
+							</td>
+						</tr>
+						<tr>
+
+							<th> <img id="img1" src="images/team/林强.jpg" /></th>
+							<th> <img id="img1" src="images/team/陶.jpg" /></th>
+							<th> <img id="img1" src="images/team/马.png" /></th>
+							<th> <img id="img1" src="images/team/wen.png" /></th>
+							<th> <img id="img1" src="images/team/胡.png" /></th>
+						</tr>
+						<tr>
+
+							<td>林强</td>
+							<td>陶治华</td>
+							<td>马晓波</td>
+							<td>文雯</td>
+							<td>胡富裕</td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<th> <img id="img1" src="images/team/kang.png" /></th>
+							<th> <img id="img1" src="images/team/廖.png" /></th>
+							<th> <img id="img1" src="images/team/郑鹏.png" /></th>
+							<th> <img id="img1" src="images/team/丁泷.jpg" /></th>
+							<th> <img id="img1" src="images/team/陈湘龙.jpg" /></th>
+
+						</tr>
+						<tr>
+							<td>邹康</td>
+							<td>廖懿鸣</td>
+							<td>郑鹏</td>
+							<td>丁泷</td>
+							<td>陈湘龙</td>
+						</tr>
+						<tr>
+							<th> <img id="img1" src="images/team/邹银凤.png" /></th>
+							<th> <img id="img1" src="images/team/谢星.png" /></th>
+
+						</tr>
+						<tr>
+							<td>邹银凤</td>
+							<td>谢星</td>
+						</tr>
+
+					</table>
+				</div>
+			</div>
+
+			<div id="ouyang" class="mfp-hide">
+				<div class="image-top">
+					<ul style="text-align:left">
+						<li>2011年毕业于北京科技大学计算机系统结构专业，获工学博士学位。</li>
+						<li>美国印第安纳大学访问学者，清华大学访问学者。</li>
+						<li>中文信息学会语言与知识计算专业委员会委员，湖南省青年骨干教师，湖南省课程思政教学名师。</li>
+						<li>主持和参与国家自然科学基金、国家科技支撑计划、国家基础条件平台、湖南省自然科学基金、湖南省哲学社会科学基金等20余个国家级和省部级课题的研究</li>
+						<li>以第一作者和通讯作者在SCI、EI期刊及CCF推荐的学术会议上发表学术论文30余篇。</li>
+						<li>湖南省线上一流课程，线下一流课程负责人，湖南省研究生精品课程思政示范课程负责人，获得湖南省教学成果奖一等奖一项（排名第五）。</li>
+
+
+					</ul>
+				</div>
+			</div>
+			<div id="liu" class="mfp-hide">
+				<div class="image-top">
+					<ul style="text-align:left">
+						<li>清华大学博士后</li>
+						<li>科研特点是融合机器学习、自然语言处理和知识图谱技术，研究多源异构大规模知识图谱构建，并应用于医疗大数据、科学大数据和企业智能化信息服务等多个领域。</li>
+						<li>中国计算机学会-自然语言处理专业委员会执行委员，中文信息学会-语言与知识计算专业委员会委员，中国中文信息学会-自然语言生成与智能写作专业委员会委员，中国人工智能学会-青年工作委员会委员，中国人工智能学会-教育工作委员会委员；
+						</li>
+						<li>教育部人工智能领知识工程教学资源建设专家协作组成员；</li>
+						<li>国际期刊Data Intelligent （MIT出版社）编委；多个CCF推荐国际会议PC（ACL，EMNLP，COLING，CIKM，NLPCC）；CCKS
+							2021、2022、2023大会出版主席；多个国际期刊审稿人；</li>
+						<li>参与IEEE国际标准《知识图谱架构》和国家标准《信息技术 人工智能 知识图谱技术框架》的制定。</li>
+
+
+					</ul>
+				</div>
+			</div>
+			<script>
+				$(document).ready(function () {
+					$('.popup-with-zoom-anim').magnificPopup({
+						type: 'inline',
+						fixedContentPos: false,
+						fixedBgPos: true,
+						overflowY: 'auto',
+						closeBtnInside: true,
+						preloader: false,
+						midClick: true,
+						removalDelay: 300,
+						mainClass: 'my-mfp-zoom-in'
+					});
+
+				});
+			</script>
+		</div>
+	</div>
+	<section class="color ss-style-bigtriangle">
+		<div id="publishment" class="Team">
+			<div class="container">
+				<div class="team-section">
+					<h3>发表论文</h3>
+
+					<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div id="lunwen">
+							<ol type="1">
+
+								<li>Counterfactual Can be Strong in Medical Question and Answering &nbsp <a
+										href="pdf/小论文-杨震.pdf"><img width="20px" src="images/pdficon.jpg" /></a></li><br>
+								<li>基于一对多关系的多模态虚假新闻检测 &nbsp <a href="pdf/小论文-袁玥.pdf"><img width="20px"
+											src="images/pdficon.jpg" /></a></li><br>
+								<li>Ma X, Liu Y, Ouyang C. Hybrid Syntactic Graph Convolutional Networks for Chinese
+									Event Detection[C]//Knowledge Graph and Semantic Computing: Knowledge Graph and
+									Cognitive Intelligence: 5th China Conference, CCKS 2020, Nanchang, China, November
+									12–15, 2020, Revised Selected Papers. Singapore: Springer Singapore, 2021: 147-159.
+									&nbsp <a href="pdf/马晓波CCKS.pdf"><img width="20px" src="images/pdficon.jpg" /></a>
+								</li><br>
+							</ol>
+							<br>
+							<a href="">查看更多</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+	</section>
+	<!-- <svg id="bigTriangleColor3" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 102" preserveAspectRatio="none"> -->
+	<!-- <path d="M0 0 L50 100 L100 0 Z" /> -->
+	</svg>
+	<!-----clients---->
+
+	<div id="offices" class="offices">
+		<div class="container">
+			<div class="offices-section">
+				<h3>实验室新闻</h3>
+				<br>
+				<ol id="newslist" type="1">
+					<li><a href="moban257/news1.html" style="color:#FFFFFF">18级软件工程专业研究生文雯在导师刘永彬副教授的指导下在国际期刊《Information
+							Processing & Management》（简称IPM）上发表学术论文</a></li><br>
+					<li><a href="moban257/news2.html" style="color:#FFFFFF">***在****发表论文</a></li><br>
+					<li><a href="moban257/news3.html" style="color:#FFFFFF">***在****发表论文</a></li><br>
+				</ol>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	<section class="color ss-style-bigtriangle">
+		<div id="client" class="Clients">
+			<div class="container">
+				<div class="client-section">
+					<h3>科研项目</h3>
+
+					<lable> <br /> <br /></lable>
+				</div>
+			</div>
+		</div>
+		<!---/start-text-slider----->
+		<!----sreen-gallery-cursual---->
+		<div class="sreen-gallery-cursual">
+			<link href="css/owl.carousel.css" rel="stylesheet">
+			<script src="js/owl.carousel.js"></script>
+			<script>
+				$(document).ready(function () {
+					$("#owl-demo").owlCarousel({
+						items: 1,
+						lazyLoad: true,
+						autoPlay: true,
+						navigation: true,
+						navigationText: false,
+						pagination: true,
+					});
+				});
+			</script>
+			<!-- //requried-jsfiles-for owl -->
+			<!-- start content_slider -->
+			<div id="owl-demo" class="owl-carousel text-center">
+				<div class="item">
+					<p>国家自然科学基金重大项目</p>
+					<h4>国家自然科学基金项目，1111111111，基于描述逻辑的事件推理关键问题研究，2014/01-2016/12</h4>
+				</div>
+				<div class="item">
+					<p>国家科技部重点国际合作专项</p>
+					<h4>国家科技部重点国际合作专项，11111111111111, 社交网络群体行为的动态推演及预控研究，2019.1-2021.12</h4>
+				</div>
+				<div class="item">
+					<p>湖南省自然科学基金项目</p>
+					<h4>湖南省自然科学基金项目，11111111111111，基于描述逻辑的事件本体形式化表示及推理关键问题研究， 2012.7-2014.6</h4>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- <svg id="bigTriangleColor3" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 102" preserveAspectRatio="none"> -->
+	<!-- <path d="M0 0 L50 100 L100 0 Z" /> -->
+	</svg>
+
+
+	<section class="color ss-style-bigtriangle">
+		<div id="team" class="Team">
+			<div class="container">
+				<div class="team-section">
+					<h3>科研团队</h3>
+					<lable> </lable>
+
+					<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+
+						<a href="#member-dialog" class="b-link-stripe b-animate-go  thickbox popup-with-zoom-anim">
+							<img src="images/team4.jpg" alt="" width="130%" height="92%" />
+						</a>
+
+
+					</div>
+				</div>
+			</div>
+
+	</section>
+	<!-- <svg id="bigTriangleColor3" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 102" preserveAspectRatio="none"> -->
+	<!-- <path d="M0 0 L50 100 L100 0 Z" /> -->
+	</svg>
+
+	<!----- /start-footer---->
+	<div class="footer">
+		<div class="container">
+			<div class="foter-bottom">
+				<div class="copy-right">
+					<h3 class="block-title">Contact Us</h3>
+					<ul class="contact-footer">
+						<li>
+							<strong>地址 :</strong> <span>湖南省衡阳市蒸湘区 南华大学 计算机学院/软件学院</span>
+						</li>
+						<li>
+							<strong>电话 :</strong> <span>1111111111111</span>
+						</li>
+						<li>
+							<strong>邮箱 :</strong> <span><a href="#">1111111@gmail.com</a></span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!----- //End-footer---->
+	<!----- //End-footer---->
+	<script type="text/javascript">
+		$(document).ready(function () {
+			/*
+			var defaults = {
+					containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+
+			$().UItoTop({ easingType: 'easeOutQuart' });
+
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"></span></a>
+
+	<div style="display:none">
+		<script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript'
+			charset='gb2312'></script>
+	</div>
+</body>
+
+</html>
